@@ -1,0 +1,1 @@
+set(__QT_DEPLOY_PLUGINS /home/otp2/Qt/6.8.2/gcc_64/plugins/networkinformation/libqglib.so;/home/otp2/Qt/6.8.2/gcc_64/plugins/networkinformation/libqnetworkmanager.so;/home/otp2/Qt/6.8.2/gcc_64/plugins/tls/libqopensslbackend.so)

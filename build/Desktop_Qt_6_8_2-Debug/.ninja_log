@@ -1,0 +1,8 @@
+# ninja log v6
+3	81	1741351165480370864	untitled_autogen/timestamp	ce850fe56699647c
+3	81	1741351165480370864	untitled_autogen/mocs_compilation.cpp	ce850fe56699647c
+3	81	1741351165480370864	/home/otp2/Документы/temp/untitled/build/Desktop_Qt_6_8_2-Debug/untitled_autogen/timestamp	ce850fe56699647c
+3	81	1741351165480370864	/home/otp2/Документы/temp/untitled/build/Desktop_Qt_6_8_2-Debug/untitled_autogen/mocs_compilation.cpp	ce850fe56699647c
+82	139	1741351165493370872	CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.o	c7ccf669ee09d6c4
+84	8090	1741351165495370873	CMakeFiles/untitled.dir/main.cpp.o	e51963ab2d00c54e
+8092	8864	1741351173503375456	untitled	20839baaa07830ad

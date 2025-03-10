@@ -1,0 +1,9 @@
+/home/otp2/Документы/temp/untitled/build/Desktop_Qt_6_8_2-Debug/CMakeFiles/untitled.dir
+/home/otp2/Документы/temp/untitled/build/Desktop_Qt_6_8_2-Debug/CMakeFiles/edit_cache.dir
+/home/otp2/Документы/temp/untitled/build/Desktop_Qt_6_8_2-Debug/CMakeFiles/rebuild_cache.dir
+/home/otp2/Документы/temp/untitled/build/Desktop_Qt_6_8_2-Debug/CMakeFiles/list_install_components.dir
+/home/otp2/Документы/temp/untitled/build/Desktop_Qt_6_8_2-Debug/CMakeFiles/install.dir
+/home/otp2/Документы/temp/untitled/build/Desktop_Qt_6_8_2-Debug/CMakeFiles/install/local.dir
+/home/otp2/Документы/temp/untitled/build/Desktop_Qt_6_8_2-Debug/CMakeFiles/install/strip.dir
+/home/otp2/Документы/temp/untitled/build/Desktop_Qt_6_8_2-Debug/CMakeFiles/untitled_autogen_timestamp_deps.dir
+/home/otp2/Документы/temp/untitled/build/Desktop_Qt_6_8_2-Debug/CMakeFiles/untitled_autogen.dir
