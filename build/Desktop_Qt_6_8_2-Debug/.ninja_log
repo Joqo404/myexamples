@@ -29,3 +29,12 @@
 66	10773	1741594700925238420	CMakeFiles/untitled.dir/client.cpp.o	c4435a512c34bfaa
 64	10972	1741594700923238419	CMakeFiles/untitled.dir/server.cpp.o	b25e3c9f00c4e361
 10972	11969	1741594711831241974	untitled	fd37761477f3cda3
+9	1511	1741595888495160888	untitled_autogen/timestamp	ce850fe56699647c
+9	1511	1741595888495160888	untitled_autogen/mocs_compilation.cpp	ce850fe56699647c
+9	1511	1741595888495160888	/home/otp2/Документы/temp/untitled/build/Desktop_Qt_6_8_2-Debug/untitled_autogen/timestamp	ce850fe56699647c
+9	1511	1741595888495160888	/home/otp2/Документы/temp/untitled/build/Desktop_Qt_6_8_2-Debug/untitled_autogen/mocs_compilation.cpp	ce850fe56699647c
+1519	11626	1741595888523160881	CMakeFiles/untitled.dir/client.cpp.o	c4435a512c34bfaa
+1512	12006	1741595888516160883	CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.o	7beb2d4071e94d13
+1513	12142	1741595888517160883	CMakeFiles/untitled.dir/main.cpp.o	56dd2268a80632e3
+1516	12498	1741595888520160882	CMakeFiles/untitled.dir/server.cpp.o	b25e3c9f00c4e361
+12498	13386	1741595899502158083	untitled	fd37761477f3cda3

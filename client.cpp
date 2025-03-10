@@ -7,7 +7,7 @@ client::client(QObject *parent) : QObject(parent) {
 }
 
 void client::start() {
-    QHostAddress serverAddress = QHostAddress::LocalHost;
+    QHostAddress serverAddress = QHostAddress::Any;
     quint16 serverPort = 1234;
     if (!sock->bind(QHostAddress::LocalHost, 1235)) {
         qDebug() << "Failed to bind socket:" << sock->errorString();
