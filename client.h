@@ -1,10 +1,16 @@
 #ifndef CLIENT_H
 #define CLIENT_H
+#include <QUdpSocket>
+#include <QObject>
 
-class client
+class client : public QObject
 {
+    Q_OBJECT
 public:
-    client();
+    explicit client(QObject *parent = nullptr);
+    void start();
+private:
+    QUdpSocket *sock;
 };
 
 

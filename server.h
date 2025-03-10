@@ -9,6 +9,7 @@ class server : public QObject
 public:
     explicit server(QObject *parent = nullptr);
     void readDatagrams();
+    void sayhello();
 private:
     QUdpSocket *sock;
 };
