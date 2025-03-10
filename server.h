@@ -1,14 +1,17 @@
 #ifndef SERVER_H
 #define SERVER_H
 #include <QUdpSocket>
+#include <QObject>
 
-class server
+class server : public QObject
 {
+    Q_OBJECT
 public:
-    server(){
-        QUdpSocket socket = new QUdpSocket(this);
-        socket.bind(QHostAddress::LocalHost,1234);
-    }
+    explicit server(QObject *parent = nullptr);
+    void readDatagrams();
+private:
+    QUdpSocket *sock;
 };
+
 
 #endif // SERVER_H

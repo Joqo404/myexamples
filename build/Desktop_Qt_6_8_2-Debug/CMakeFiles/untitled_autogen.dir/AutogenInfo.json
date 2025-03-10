@@ -140,6 +140,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/otp2/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/temp/untitled/client.h",
+			"MU",
+			"EWIEGA46WW/moc_client.cpp",
+			null
+		],
+		[
 			"/home/otp2/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/temp/untitled/server.h",
 			"MU",
 			"EWIEGA46WW/moc_server.cpp",
@@ -185,6 +191,7 @@
 	"MOC_PREDEFS_CMD" : 
 	[
 		"/bin/g++",
+		"-std=gnu++17",
 		"-dM",
 		"-E",
 		"-c",
@@ -203,6 +210,11 @@
 	"SETTINGS_FILE" : "/home/otp2/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/temp/untitled/build/Desktop_Qt_6_8_2-Debug/CMakeFiles/untitled_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/home/otp2/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/temp/untitled/client.cpp",
+			"MU",
+			null
+		],
 		[
 			"/home/otp2/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/temp/untitled/main.cpp",
 			"MU",

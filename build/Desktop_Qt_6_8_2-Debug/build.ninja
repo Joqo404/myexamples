@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_untitled: phony || untitled_autogen unti
 build CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.o: CXX_COMPILER__untitled_unscanned_Debug /home/otp2/Документы/temp/untitled/build/Desktop_Qt_6_8_2-Debug/untitled_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_untitled
   DEFINES = -DQT_CORE_LIB -DQT_NETWORK_LIB
   DEP_FILE = CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.o.d
-  FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always -fPIC
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -fPIC
   INCLUDES = -I/home/otp2/Документы/temp/untitled/build/Desktop_Qt_6_8_2-Debug/untitled_autogen/include -isystem /home/otp2/Qt/6.8.2/gcc_64/include/QtCore -isystem /home/otp2/Qt/6.8.2/gcc_64/include -isystem /home/otp2/Qt/6.8.2/gcc_64/mkspecs/linux-g++ -isystem /home/otp2/Qt/6.8.2/gcc_64/include/QtNetwork
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/untitled_autogen
@@ -60,7 +60,7 @@ build CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.o: CXX_COMPI
 build CMakeFiles/untitled.dir/main.cpp.o: CXX_COMPILER__untitled_unscanned_Debug /home/otp2/Документы/temp/untitled/main.cpp || cmake_object_order_depends_target_untitled
   DEFINES = -DQT_CORE_LIB -DQT_NETWORK_LIB
   DEP_FILE = CMakeFiles/untitled.dir/main.cpp.o.d
-  FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always -fPIC
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -fPIC
   INCLUDES = -I/home/otp2/Документы/temp/untitled/build/Desktop_Qt_6_8_2-Debug/untitled_autogen/include -isystem /home/otp2/Qt/6.8.2/gcc_64/include/QtCore -isystem /home/otp2/Qt/6.8.2/gcc_64/include -isystem /home/otp2/Qt/6.8.2/gcc_64/mkspecs/linux-g++ -isystem /home/otp2/Qt/6.8.2/gcc_64/include/QtNetwork
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir
@@ -68,7 +68,15 @@ build CMakeFiles/untitled.dir/main.cpp.o: CXX_COMPILER__untitled_unscanned_Debug
 build CMakeFiles/untitled.dir/server.cpp.o: CXX_COMPILER__untitled_unscanned_Debug /home/otp2/Документы/temp/untitled/server.cpp || cmake_object_order_depends_target_untitled
   DEFINES = -DQT_CORE_LIB -DQT_NETWORK_LIB
   DEP_FILE = CMakeFiles/untitled.dir/server.cpp.o.d
-  FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always -fPIC
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/otp2/Документы/temp/untitled/build/Desktop_Qt_6_8_2-Debug/untitled_autogen/include -isystem /home/otp2/Qt/6.8.2/gcc_64/include/QtCore -isystem /home/otp2/Qt/6.8.2/gcc_64/include -isystem /home/otp2/Qt/6.8.2/gcc_64/mkspecs/linux-g++ -isystem /home/otp2/Qt/6.8.2/gcc_64/include/QtNetwork
+  OBJECT_DIR = CMakeFiles/untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles/untitled.dir
+
+build CMakeFiles/untitled.dir/client.cpp.o: CXX_COMPILER__untitled_unscanned_Debug /home/otp2/Документы/temp/untitled/client.cpp || cmake_object_order_depends_target_untitled
+  DEFINES = -DQT_CORE_LIB -DQT_NETWORK_LIB
+  DEP_FILE = CMakeFiles/untitled.dir/client.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -fPIC
   INCLUDES = -I/home/otp2/Документы/temp/untitled/build/Desktop_Qt_6_8_2-Debug/untitled_autogen/include -isystem /home/otp2/Qt/6.8.2/gcc_64/include/QtCore -isystem /home/otp2/Qt/6.8.2/gcc_64/include -isystem /home/otp2/Qt/6.8.2/gcc_64/mkspecs/linux-g++ -isystem /home/otp2/Qt/6.8.2/gcc_64/include/QtNetwork
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir
@@ -81,7 +89,7 @@ build CMakeFiles/untitled.dir/server.cpp.o: CXX_COMPILER__untitled_unscanned_Deb
 #############################################
 # Link the executable untitled
 
-build untitled: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.o CMakeFiles/untitled.dir/main.cpp.o CMakeFiles/untitled.dir/server.cpp.o | /home/otp2/Qt/6.8.2/gcc_64/lib/libQt6Network.so.6.8.2 /home/otp2/Qt/6.8.2/gcc_64/lib/libQt6Core.so.6.8.2 || untitled_autogen untitled_autogen_timestamp_deps
+build untitled: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.o CMakeFiles/untitled.dir/main.cpp.o CMakeFiles/untitled.dir/server.cpp.o CMakeFiles/untitled.dir/client.cpp.o | /home/otp2/Qt/6.8.2/gcc_64/lib/libQt6Network.so.6.8.2 /home/otp2/Qt/6.8.2/gcc_64/lib/libQt6Core.so.6.8.2 || untitled_autogen untitled_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_LIBRARIES = -Wl,-rpath,/home/otp2/Qt/6.8.2/gcc_64/lib:  /home/otp2/Qt/6.8.2/gcc_64/lib/libQt6Network.so.6.8.2  /home/otp2/Qt/6.8.2/gcc_64/lib/libQt6Core.so.6.8.2
   OBJECT_DIR = CMakeFiles/untitled.dir
