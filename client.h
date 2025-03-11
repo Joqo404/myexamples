@@ -9,6 +9,7 @@ class client : public QObject
 public:
     explicit client(QObject *parent = nullptr);
     void start();
+    void lisendatagram();
 private:
     QUdpSocket *sock;
 };

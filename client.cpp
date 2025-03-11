@@ -16,7 +16,6 @@ void client::start() {
     }
     // Данные для отправки
     QByteArray data = "client: zdarova zaebal!";
-
     // Отправка данных на сервер
     qint64 bytesSent = sock->writeDatagram(data, serverAddress, serverPort);
 
@@ -26,5 +25,23 @@ void client::start() {
         qDebug() << "client: данные отправленны:" << data;
     }
     //Ответ от сервера
+    connect(sock, &QUdpSocket::readyRead,this, &client::lisendatagram);
+}
 
+void client::lisendatagram(){
+    qDebug() << "client: отвечает";
+    while (sock->hasPendingDatagrams()){
+        QByteArray data;
+        data.resize(sock->pendingDatagramSize());
+        QHostAddress sendaddr;
+        quint16 sendport;
+        qint64 byteread = sock->readDatagram(data.data(), data.size(), &sendaddr, &sendport);
+        if (byteread == -1) {
+            qDebug() << "Ошибка при чтении данных:" << sock->errorString();
+        }
+        else {
+            qDebug() << "client: получены данные от сервера:" << data;
+        }
+
+    }
 }

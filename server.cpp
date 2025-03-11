@@ -6,11 +6,13 @@ server::server(QObject *parent) : QObject(parent) {
     //бинд сервака к адресу и порту
     if (!sock->bind(QHostAddress::LocalHost, 1234)) {
         qDebug() << "Failed to bind socket:" << sock->errorString();
-    } else {
+    }
+    else {
         qDebug() << "Server started on port 1234";
     }
 
     connect(sock, &QUdpSocket::readyRead, this, &server::readDatagrams);
+//   sayhello();
 }
 
 void server::sayhello(){
@@ -26,7 +28,10 @@ void server::readDatagrams(){
         QHostAddress senderAddress;
         quint16 senderPort;
         sock->readDatagram(buffer.data(), buffer.size(), &senderAddress, &senderPort);
-        qDebug() <<"server:\n" << "Received message:" << buffer << "from" << senderAddress.toString()
+        qDebug() <<"server:\n" << "Received message:" << buffer << "from"
+                 << senderAddress.toString()
                  << ":" << senderPort;
+        QByteArray data = "cicl zavershon";
+        sock->writeDatagram(data, senderAddress, senderPort);
     }
 }
